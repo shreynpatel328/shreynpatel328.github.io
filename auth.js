@@ -23,9 +23,6 @@ function checkAuth() {
   gapi.auth.authorize({
     client_id: OAUTH2_CLIENT_ID,
     scope: OAUTH2_SCOPES,
-    state: "facebook",
-    redirect_uri:"http://www.localhost:8080/facebook/#/",
-    response_type: "token",
     immediate: true
   }, handleAuthResult);
 }
