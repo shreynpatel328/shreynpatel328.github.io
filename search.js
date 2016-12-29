@@ -36,7 +36,7 @@ function search() {
 				var videoId = result.items[j].snippet.resourceId.videoId;
 				console.log(videoId);
 				$('#search-container').append($('<iframe>', { 
-				    src : "http://www.youtube.com/embed/"+videoId, 
+				    src : "https://www.youtube.com/embed/"+videoId, 
 				    width : 320, 
 				    height : 160, 
 				    frameborder:0
