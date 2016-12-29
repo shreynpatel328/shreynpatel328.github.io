@@ -54,12 +54,6 @@ function search() {
 			}
 			
 		});
-		
-		$.each( arr, function( index, value ) {
-		      selectHtml += '<option  value="' + value + '">' + value + '</option>';
-		  });
-
-		  $('#test').html( selectHtml );
 	}
   });
 }
